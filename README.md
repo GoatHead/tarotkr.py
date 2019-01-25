@@ -26,19 +26,27 @@ json 데이터는 온라인 상에서 돌아다니는 [Universal Waite tarot dec
 
 ```python
 card = tdeck.draw()
-# 카드는 이런 식으로 뽑을 수 있습니다. 기본적으론 정방향으로 22장이 순서대로 배열되어 있습니다. 따라서 무조건 아르카나 21번 세계(The World)가 뽑힙니다.
+# 카드는 이런 식으로 뽑을 수 있습니다. 기본적으론 정방향으로 22장이 순서대로 배열되어 있습니다.
+# 따라서 무조건 아르카나 21번 세계(The World)가 뽑힙니다.
 
 tdeck.shuffle()
 # 덱을 섞습니다. 정,역방향과 카드 배열 순서가 무작위로 섞이게 됩니다.
 
 string = tdeck.cardDesc(card, option='nameonly')
-# cardDesc는 카드의 정보를 문자열로 반환하는 메소드입니다. option 값은 'nameonly(이름만)'가 default 값입니다. option 파라미터는 'simple(간단 설명)', 'detail(상세 설명)'이 존재합니다.
+# cardDesc는 카드의 정보를 문자열로 반환하는 메소드입니다. 
+# option 값은 'nameonly(이름만)'가 default 값입니다. 
+# option 파라미터는 'simple(간단 설명)', 'detail(상세 설명)'이 존재합니다.
 
 string = tdeck.cardImg(card, size='small', showback=False)
-# cardImg는 해당 카드에 대응하는 src 폴더의 카드 이미지 주소를 문자열로 반환하는 메소드입니다. size의 파라미터는 'small(작은 카드)', 'big(큰 카드)'가 있고 showback 파라미터는 True일 시 앞면 이미지를 무시하고 뒷면만을 반환합니다. 뒤의 파라미터 둘은 default로 설정 되어있습니다.
+# cardImg는 해당 카드에 대응하는 src 폴더의 카드 이미지 주소를 문자열로 반환하는 메소드입니다. 
+# size의 파라미터는 'small(작은 카드)', 'big(큰 카드)'가 있고 showback 파라미터는 True일 시 앞면 이미지를 무시하고 뒷면만을 반환합니다. 
+# 뒤의 파라미터 둘은 default로 설정 되어있습니다.
 
 string = tarotkr.tarotDetail('세계', option='desc', imgpath=False)
-# 카드에 대한 정보를 찾아주는 함수입니다. 역시 option의 'desc'와 imgpath의 'False'는 default로 설정 되어있습니다. option의 파라미터는 'desc(상세 설명)', 'tpos(정위치만 설명)', 'rpos(역위치만 설명)' 이렇게 있습니다. imgpath는 True일시 카드 이미지 주소도 반환합니다. 결과는 ['정보', '이미지 주소']의 형태로 리스트로 반환됩니다.
+# 카드에 대한 정보를 찾아주는 함수입니다. 
+# 역시 option의 'desc'와 imgpath의 'False'는 default로 설정 되어 있습니다. 
+# option의 파라미터는 'desc(상세 설명)', 'tpos(정위치만 설명)', 'rpos(역위치만 설명)' 이렇게 있습니다. 
+# imgpath는 True일시 카드 이미지 주소도 반환합니다. 결과는 ['정보', '이미지 주소']의 형태로 리스트로 반환됩니다.
 ```
 
 ### 예제
