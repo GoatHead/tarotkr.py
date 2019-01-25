@@ -39,7 +39,8 @@ string = tdeck.cardDesc(card, option='nameonly')
 
 string = tdeck.cardImg(card, size='small', showback=False)
 # cardImg는 해당 카드에 대응하는 src 폴더의 카드 이미지 주소를 문자열로 반환하는 메소드입니다. 
-# size의 파라미터는 'small(작은 카드)', 'big(큰 카드)'가 있고 showback 파라미터는 True일 시 앞면 이미지를 무시하고 뒷면만을 반환합니다. 
+# size의 파라미터는 'small(작은 카드)', 'big(큰 카드)'가 있습니다.
+# showback 파라미터는 True일 시 앞면 이미지를 무시하고 뒷면만을 반환합니다. 
 # 뒤의 파라미터 둘은 default로 설정 되어있습니다.
 
 string = tarotkr.tarotDetail('세계', option='desc', imgpath=False)
