@@ -50,6 +50,8 @@ string = tarotkr.tarotDetail('세계', option='desc', imgpath=False)
 # imgpath는 True일시 카드 이미지 주소도 반환합니다. 결과는 ['정보', '이미지 주소']의 형태로 리스트로 반환됩니다.
 ```
 
+`tarotkr.py`의 실행에는 `src` 폴더 내부의 타로 카드 이미지가 저장된 `tarotimg` 폴더와 데이터가 저장된 `tarotcards.json` 둘만이 필요합니다.
+
 ### 예제
 
 `dist` 폴더의 `example.exe` 파일은 `src`폴더의 `example.py`를 빌드한 것입니다.  가장 대중적인 쓰리카드 스프레드를 이용했습니다. 콘솔로 만들어진 프로그램이라 이미지 출력 기능은 따로 없습니다. 이미지 파일은 컴퓨터에 설치된 이미지 뷰어를 통해 열립니다.
