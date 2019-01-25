@@ -45,8 +45,8 @@ string = tarotkr.tarotDetail('세계', option='desc', imgpath=False)
 
 `dist` 폴더의 `example.exe` 파일은 `src`폴더의 `example.py`를 빌드한 것입니다.  가장 대중적인 쓰리카드 스프레드를 이용했습니다. 콘솔로 만들어진 프로그램이라 이미지 출력 기능은 따로 없습니다. 이미지 파일은 컴퓨터에 설치된 이미지 뷰어를 통해 열립니다.
 
-![예제 1]('.\src\img\ex01.png')
+![예제 1](./src/img/ex01.png)
 
 
 
-![예제 1]('.\src\img\ex02.png')
+![예제 1](./src/img/ex02.png)
