@@ -1,5 +1,7 @@
 # tarotkr.py
 
+[7z 다운로드](https://github.com/GoatHead/tarotkr.py/releases)  
+
 tarotkr은 한국어 타로 카드를 시뮬레이팅하는 것을 목적으로 만들어진 모듈입니다. 메이저 아르카나(22장)과 마이너 아르카나(78장)이 모두 구현되어 있으며, 정방향과 역방향에도 대응합니다. `tarotkr.py`와 같은 폴더 안에 있는`tarotcards.json` 에서 데이터를 읽어옵니다.
 
 json 데이터는 온라인 상에서 돌아다니는 [Universal Waite tarot deck](https://en.wikipedia.org/wiki/Universal_Waite_tarot_deck)을 설명하는 자료를 기반으로 하여 만들었습니다.
