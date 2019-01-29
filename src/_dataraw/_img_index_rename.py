@@ -1,6 +1,6 @@
 import os
 import re
-path = 'C:\\Users\\singl\\Desktop\\MiscProgram\\Python\\tarot\\tarotimg\\big\\'
+path = 'your_img_path'
 minor = {'Cups': 36 , 'Swords': 50 , 'Pents' :  64 , 'Wands': 22}
 for fname in os.listdir(path):
     if fname[-3:] == 'png':
